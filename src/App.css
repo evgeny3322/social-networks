@@ -11,21 +11,7 @@
     grid-gap: 10px;
 }
 
-.header {
-    grid-area: header;
-    background-color: red;
-}
-.header_photo{
-    width: 100px;
-    height: 50px;
-}
-
-.nav {
-    grid-area: nav;
-    background-color: blue;
-}
-
-.content {
+.app-wrapper__content {
     grid-area: content;
     background-color: green;
 }

@@ -1,0 +1,14 @@
+.nav {
+    grid-area: nav;
+    background-color: blue;
+    text-align: center;
+}
+
+.item{
+    color: white;
+}
+
+.active{
+    transition: all .50s;
+    cursor: pointer;
+}
