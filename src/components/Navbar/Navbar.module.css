@@ -3,10 +3,24 @@
     background-color: blue;
     text-align: center;
 }
+/*.nav__link{*/
+/*    text-decoration: none;*/
+/*    color: white;*/
+/*}*/
+/*.nav__link:hover{*/
+/*    color: black;*/
+/*    transition: all .5s;*/
+/*}*/
 
-.item{
-    color: white;
+.activeLink {
+    color: black;
+    text-decoration: none;
 }
+.item {
+    color: white;
+    text-decoration: none;
+}
+
 
 .active{
     transition: all .50s;
