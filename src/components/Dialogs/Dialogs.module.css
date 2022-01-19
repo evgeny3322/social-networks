@@ -7,5 +7,9 @@
 .dialogs__item,
 .message {
     padding: 10px;
+    color: white;
 }
 
+.activeLink{
+    color: black;
+}
