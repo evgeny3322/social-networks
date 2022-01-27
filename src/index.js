@@ -4,13 +4,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
-export let rerenderEntireTree = (state) => {
+let rerenderEntireTree = (state) => {
     ReactDOM.render(
         <React.StrictMode>
             <App
-                state={store.getState()}
-                 addPost={store.addPost}
-                updateNewPostText={store.updateNewPostText}
+                state={state}
+                dispatch={store.dispatch.bind(store)}
             />
         </React.StrictMode>, document.getElementById('root')
     );
